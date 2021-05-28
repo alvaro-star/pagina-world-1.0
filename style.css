@@ -1,0 +1,35 @@
+#cabecalhoPrincipal h1, #cabecalhoPrincipal nav{
+    text-align: center;
+}
+
+#cabecalhoPrincipal{
+    background-color: rgb(80,197,155);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 9px;
+}
+#cabecalhoPrincipal h1, #cabecalhoPrincipal a{
+    color: white;
+}
+body, #cabecalhoPrincipal h1, p, #cabecalhoseg{
+    margin: 0;
+}
+#cabecalhoPrincipal a{
+    background-color: rgb(62, 129, 191);
+    display: inline-block;
+    width: 90px;
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-right: 0.5px;
+    padding-left: 0.5px;
+    padding-top: 6px;
+    margin-top: 5px;
+}
+#cabecalhoseg, p{
+    background-color: rgb(240, 240, 240);
+}
+#cabecalhoseg p{
+    font-weight: bold;
+    padding-left: 2%;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
