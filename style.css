@@ -1,11 +1,17 @@
-#cabecalhoPrincipal h1, #cabecalhoPrincipal nav{
+#cabecalhoPrincipal h1, #cabecalhoPrincipal nav, #cabecalhoter, article .titulo, #cabecalhoseg a{
     text-align: center;
 }
 
-#cabecalhoPrincipal{
+#cabecalhoPrincipal, #cabecalhoter{
     background-color: rgb(80,197,155);
     font-family: Arial, Helvetica, sans-serif;
+}
+#cabecalhoPrincipal{
     padding-bottom: 9px;
+}
+#cabecalhoter{
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 #cabecalhoPrincipal h1, #cabecalhoPrincipal a{
     color: white;
@@ -18,18 +24,38 @@ body, #cabecalhoPrincipal h1, p, #cabecalhoseg{
     display: inline-block;
     width: 90px;
     text-decoration: none;
-    padding-bottom: 4px;
-    padding-right: 0.5px;
+    padding-top: 7px; 
     padding-left: 0.5px;
-    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 0.5px;
     margin-top: 5px;
 }
-#cabecalhoseg, p{
-    background-color: rgb(240, 240, 240);
+#cabecalhoseg a{
+    display: inline-block;
+    text-align: center;
 }
-#cabecalhoseg p{
+#cabecalhoseg{
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 20%;
+}
+#cabecalhoseg .titulo1{
+    padding-left: 3%;
+}
+#cabecalhoseg .titulo, .titulo1{
     font-weight: bold;
-    padding-left: 2%;
     padding-top: 6px;
     padding-bottom: 5px;
+}
+
+article{
+    box-sizing: border-box;
+    border-left: 10%;
+    border-right: 10%;
+    display: block;
+    width: 33%;
+    float: left;
+}
+.cont{
+    margin-left: 10%;
+    margin-right: 10%;
 }
