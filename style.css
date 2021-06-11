@@ -36,7 +36,8 @@ body, #cabecalhoPrincipal h1, p, #cabecalhoseg{
 }
 #cabecalhoseg{
     background-color: rgb(240, 240, 240);
-    padding-bottom: 300px;
+    padding-bottom: 20px;
+    overflow: hidden;
 }
 #cabecalhoseg .titulo1{
     padding-left: 3%;
@@ -50,11 +51,11 @@ article, #cabecalhoseg .titulo, .titulo1, #cabecalhoPrincipal a{
     font-family: Arial, Helvetica, sans-serif;
 }
 article{
-    width: 33%;
+    width: 33.33%;
     float: left;
     text-align: justify;
 }
 .cont{
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
